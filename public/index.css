@@ -380,21 +380,129 @@ nav ul.mynav li {
 
 /* midText Connect */
 #midTextConnect {
-  position: absolute;
   width: 899px;
   height: 182px;
   left: 190px;
   top: 2321px;
 }
 
+#midHeadConnect {
+  position: absolute;
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 2321px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+
+  text-align: center;
+  color: #2a0e05;
+}
+
+#midPTextConnect {
+  position: absolute;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 2404px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #79706e;
+}
+
 /* Chat or footer */
 #chat {
-  position: absolute;
   width: 1280px;
   height: 490px;
   left: 0px;
   top: 2604px;
   background-color: #fb7852;
+  position: absolute;
+}
+
+#headChat {
+  position: absolute;
+  width: 450px;
+  height: 58px;
+  left: 112px;
+  top: 2740px; 
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 50px;
+
+  text-align: center;
+  color: black;
+}
+
+#chatText {
+  position: absolute;
+  width: 366px;
+  height: 75px;
+  left: 154px;
+  top: 2816px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #000000;
+}
+
+#answersBtn {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 193px;
+  top: 2916px;
+
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fb7852;
+}
+
+#answersBtnText {
+  width: 273px;
+  height: 40px;
+  left: 196px;
+  top: 2920px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#armsFold {
+  position: absolute;
+  width: 551px;
+  height: 490px;
+  left: 624px;
+  top: 2604px;
 }
 
 /* Misc */
