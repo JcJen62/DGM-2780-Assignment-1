@@ -19,12 +19,12 @@ h6 {
 
 main {
   position: relative;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 body {
-  width: 1280px;
   height: 3094px;
-
   background: #ffffff;
 }
 
@@ -85,7 +85,7 @@ nav ul.mynav li {
   position: absolute;
   width: 1186px;
   height: 464px;
-  left: 94px;
+  left: 0px;
   top: 94px;
 }
 
@@ -426,8 +426,8 @@ nav ul.mynav li {
   height: 490px;
   left: 0px;
   top: 2604px;
-  background-color: #fb7852;
   position: absolute;
+  background-color: #fb7852;
 }
 
 #headChat {
@@ -435,7 +435,7 @@ nav ul.mynav li {
   width: 450px;
   height: 58px;
   left: 112px;
-  top: 2740px; 
+  top: 120px; 
 
   font-family: Nunito Sans;
   font-style: normal;
@@ -444,7 +444,7 @@ nav ul.mynav li {
   line-height: 50px;
 
   text-align: center;
-  color: black;
+  color: white;
 }
 
 #chatText {
@@ -452,7 +452,7 @@ nav ul.mynav li {
   width: 366px;
   height: 75px;
   left: 154px;
-  top: 2816px;
+  top: 200px;
 
   font-family: Open Sans;
   font-style: normal;
@@ -461,7 +461,7 @@ nav ul.mynav li {
   line-height: 30px;
 
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 #answersBtn {
@@ -469,7 +469,7 @@ nav ul.mynav li {
   width: 280px;
   height: 48px;
   left: 193px;
-  top: 2916px;
+  top: 300px;
 
   border: 3px solid #ffffff;
   box-sizing: border-box;
@@ -481,7 +481,7 @@ nav ul.mynav li {
   width: 273px;
   height: 40px;
   left: 196px;
-  top: 2920px;
+  top: 1255px;
 
   font-family: Open Sans;
   font-style: normal;
@@ -502,7 +502,7 @@ nav ul.mynav li {
   width: 551px;
   height: 490px;
   left: 624px;
-  top: 2604px;
+  top: 0px;
 }
 
 /* Misc */
